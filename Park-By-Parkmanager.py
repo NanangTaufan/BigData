@@ -1,6 +1,6 @@
 from pyspark import SparkConf, SparkContext
 
-conf = SparkConf().setMaster("local").setAppName("FriendsByAge")
+conf = SparkConf().setMaster("local").setAppName("Count-Park-By-Manager")
 sc = SparkContext(conf = conf)
 
 def parseLine(line):
